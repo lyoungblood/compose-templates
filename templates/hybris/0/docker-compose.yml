@@ -3,9 +3,15 @@ oracle:
 
 solr:
   image: lukeyoungblood/solr:v0.1.0
+  volume_driver: convoy-nfs
+  volumes:
+    - mysolr-nfs2:/opt/solr/server/solr/cores
 
 hybris:
   image: lukeyoungblood/hybris:v0.1.0
   links:
     - solr
     - oracle
+  volume_driver: convoy-nfs
+  volumes:
+    - mymedia-nfs2:/etc/hybris/data/media
