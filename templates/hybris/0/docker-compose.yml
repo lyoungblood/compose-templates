@@ -1,3 +1,6 @@
+oracle:
+  image: oracle
+
 hybris:
   image: lukeyoungblood/hybris
   links:

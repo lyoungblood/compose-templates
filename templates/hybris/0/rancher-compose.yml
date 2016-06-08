@@ -12,5 +12,7 @@
       default: "80"
       type: "int"
 
+oracle:
+  hostname: ocs-1233.oc.mckesson.com
 
 hybris:
