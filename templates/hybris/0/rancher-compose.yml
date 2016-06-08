@@ -4,17 +4,16 @@
   description: "SAP Hybris eCommerce B2B Accelerator"
   uuid: hybris-0
   minimum_rancher_version: v1.0.1
-#  questions:
-#    - variable: DBHOSTNAME
-#      description: "The fully qualified domain name of your Oracle database server."
-#      label: "Oracle database hostname"
-#      type: "string"
-#      default: "ocs-1233.oc.mckesson.com"
-#      required: true
+  questions:
+    - variable: db_hostname
+      description: "The fully qualified domain name of your Oracle database server."
+      label: "Oracle database hostname"
+      type: "string"
+      default: "ocs-1233.oc.mckesson.com"
+      required: true
 
 oracle:
-#  hostname: ${DBHOSTNAME}
-  hostname: ocs-1233.oc.mckesson.com
+  hostname: "${db_hostname}"
 
 solr:
   scale: 1
