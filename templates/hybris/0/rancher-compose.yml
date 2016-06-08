@@ -1,24 +1,16 @@
-.catalog
-  name: "SAP Hybris"
-  version: "v0.1.0"
-  description: "SAP Hybris eCommerce B2B Accelerator"
-  uuid: hybris-0
-  questions:
-    - variable: db_hostname
-      description: "The fully qualified domain name of your Oracle database server."
-      label: "Oracle database hostname"
-      type: "string"
-      default: "ocs-1233.oc.mckesson.com"
+.catalog:
+  name: "Hybris"
+  version: "v0.1-educaas1"
+  description: "Blog tool, publishing platform and CMS"
+  uuid: Hybris-0
+  minimum_rancher_version: v0.51.0
+  questions:    
+    - variable: public_port
+      description: "public port to access the wordpress site"
+      label: "Public Port"
       required: true
+      default: "80"
+      type: "int"
 
-oracle:
-  hostname: "${db_hostname}"
-
-solr:
-  scale: 1
 
 hybris:
-  scale: 2
-
-#lb:
-#  default_cert: stacks.space
