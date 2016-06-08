@@ -3,7 +3,6 @@
   version: "v0.1.0"
   description: "SAP Hybris eCommerce B2B Accelerator"
   uuid: hybris-0
-  minimum_rancher_version: v1.0.1
   questions:
     - variable: db_hostname
       description: "The fully qualified domain name of your Oracle database server."
