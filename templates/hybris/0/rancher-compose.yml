@@ -20,5 +20,5 @@ solr:
 hybris:
   scale: 2
 
-lb:
-  default_cert: stacks.space
+#lb:
+#  default_cert: stacks.space
