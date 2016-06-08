@@ -9,6 +9,8 @@ solr:
 
 hybris:
   image: lukeyoungblood/hybris:v0.1.0
+  env_file:
+    - ./acc_env
   links:
     - solr
     - oracle
