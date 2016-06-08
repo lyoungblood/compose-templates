@@ -2,7 +2,6 @@
   name: "SAP Hybris"
   version: "v0.1.0"
   description: "SAP Hybris eCommerce B2B Accelerator"
-  minimum_rancher_version: 1.0.1
   questions:
     - variable: "DBHOSTNAME"
       label: "Oracle database hostname"

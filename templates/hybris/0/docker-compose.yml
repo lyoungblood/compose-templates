@@ -2,13 +2,13 @@ oracle:
   image: oracle
 
 solr:
-  image: lukeyoungblood/solr
+  image: lukeyoungblood/solr:v0.1.0
   volume_driver: convoy-nfs
   volumes:
     - mysolr-nfs2:/opt/solr/server/solr/cores
 
 hybris:
-  image: lukeyoungblood/hybris:latest
+  image: lukeyoungblood/hybris:v0.1.0
   environment:
     - y_tomcat_http_port:80
     - y_tomcat_ssl_port:443
