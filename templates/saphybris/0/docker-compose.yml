@@ -1,2 +1,11 @@
 hybris:
-  image: lukeyoungblood/hybris:v0.1.0
+  image: lukeyoungblood/hybris
+  links:
+    - db:mysql
+  ports:
+    - ${public_port}:80
+
+db:
+  image: mariadb
+  environment:
+    MYSQL_ROOT_PASSWORD: example
