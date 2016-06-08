@@ -5,14 +5,14 @@
   uuid: Hybris-0
   minimum_rancher_version: v0.51.0
   questions:    
-    - variable: public_port
-      description: "public port to access the wordpress site"
-      label: "Public Port"
+    - variable: db_hostname
+      description: "Hostname of your Oracle database server:"
+      label: "DB Hostname"
       required: true
-      default: "80"
-      type: "int"
+      default: "ocs-1233.oc.mckesson.com"
+      type: "str"
 
 oracle:
-  hostname: ocs-1233.oc.mckesson.com
+  hostname: ${db_hostname}
 
 hybris:
