@@ -1,5 +1,5 @@
-name: SAP Hybris Accelerator
+name: SAP Hybris
 description: |
-  This will provision the SAP Hybris eCommerce B2B Accelerator application.
+  SAP Hybris eCommerce B2B Accelerator application.
 version: v0.1.0
 category: eCommerce
