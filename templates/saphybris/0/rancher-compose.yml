@@ -1,4 +1,8 @@
 .catalog
-  name: "SAP Hybris"
+  name: "Hybris"
   version: "v0.1.0"
   description: "SAP Hybris eCommerce B2B Accelerator"
+  uuid: Hybris-0
+  minimum_rancher_version: v1.0.1
+
+hybris:
