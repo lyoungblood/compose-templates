@@ -1,0 +1,18 @@
+oracle:
+  hostname: ocs-1233.oc.mckesson.com
+
+solr:
+  scale: 1
+
+hybris:
+  scale: 2
+
+lb:
+  default_cert: stacks.space
+
+.catalog
+  name: SAP Hybris
+  version: 0
+  description: SAP Hybris eCommerce B2B Accelerator
+  uuid: hybris-0
+  minimum_rancher_version: 1.0.1

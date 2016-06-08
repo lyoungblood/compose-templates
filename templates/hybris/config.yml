@@ -1,0 +1,8 @@
+name: SAP Hybris Accelerator
+description: |
+  This will provision the SAP Hybris eCommerce B2B Accelerator application.
+version: 0
+category: eCommerce
+maintainer: Luke Youngblood luke.youngblood@mckesson.com
+license: Proprietary/Commercial
+projectURL: http://www.hybris.com
