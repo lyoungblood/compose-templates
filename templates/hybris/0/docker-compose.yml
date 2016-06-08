@@ -1,14 +1,11 @@
 oracle:
   image: oracle
 
-hybris:
-  image: lukeyoungblood/hybris
-  links:
-    - db:mysql
-  ports:
-    - ${public_port}:80
+solr:
+  image: lukeyoungblood/solr:v0.1.0
 
-db:
-  image: mariadb
-  environment:
-    MYSQL_ROOT_PASSWORD: example
+hybris:
+  image: lukeyoungblood/hybris:v0.1.0
+  links:
+    - solr
+    - oracle

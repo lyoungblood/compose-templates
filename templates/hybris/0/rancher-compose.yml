@@ -6,11 +6,11 @@
   minimum_rancher_version: v0.51.0
   questions:    
     - variable: db_hostname
-      description: "Hostname of your Oracle database server:"
-      label: "DB Hostname"
+      description: "Fully qualified domain name of your database server."
+      label: "Database Hostname"
       required: true
       default: "ocs-1233.oc.mckesson.com"
-      type: "str"
+      type: "string"
 
 oracle:
   hostname: ${db_hostname}
