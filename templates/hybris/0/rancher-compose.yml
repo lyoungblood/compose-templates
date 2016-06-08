@@ -1,7 +1,7 @@
 .catalog:
-  name: "Hybris"
-  version: "v0.1-educaas1"
-  description: "Blog tool, publishing platform and CMS"
+  name: "SAP Hybris"
+  version: "v0.1.0"
+  description: "SAP Hybris B2B eCommerce Platform"
   uuid: Hybris-0
   minimum_rancher_version: v0.51.0
   questions:    
