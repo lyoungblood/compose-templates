@@ -2,23 +2,3 @@
   name: "SAP Hybris"
   version: "v0.1.0"
   description: "SAP Hybris eCommerce B2B Accelerator"
-#  uuid: hybris-0
-#  questions:
-#    - variable: db_hostname
-#      description: "The fully qualified domain name of your Oracle database server."
-#      label: "Oracle database hostname"
-#      type: "string"
-#      default: "ocs-1233.oc.mckesson.com"
-#      required: true
-
-oracle:
-  hostname: ocs-1233.oc.mckesson.com
-
-solr:
-  scale: 1
-
-hybris:
-  scale: 2
-
-#lb:
-#  default_cert: stacks.space
