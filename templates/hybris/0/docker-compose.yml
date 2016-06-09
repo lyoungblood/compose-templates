@@ -14,6 +14,9 @@ hybris:
   links:
     - solr
     - oracle
+  depends_on:
+    - solr
+    - oracle
   volume_driver: convoy-nfs
   volumes:
     - mymedia-nfs2:/etc/hybris/data/media
