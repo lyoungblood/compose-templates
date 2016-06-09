@@ -15,4 +15,7 @@
 oracle:
   hostname: ${db_hostname}
 
+solr:
+  scale: 1
 hybris:
+  scale: 2
