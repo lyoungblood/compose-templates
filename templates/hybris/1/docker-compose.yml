@@ -3,7 +3,7 @@ oracle:
 
 solr:
   image: 
-    lukeyoungblood/solr:v0.1.0
+    lukeyoungblood/solr:v0.2.0
   volume_driver: 
     convoy-nfs
   volumes:
@@ -11,7 +11,7 @@ solr:
 
 hybris:
   image: 
-    lukeyoungblood/hybris:v0.1.0
+    lukeyoungblood/hybris:v0.2.0
   environment:
     TOMCAT_SERVER_XML: server_proxy_nossl.xml
     y_tomcat_http_port: 80
