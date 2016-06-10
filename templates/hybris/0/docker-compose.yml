@@ -2,7 +2,7 @@ oracle:
   image: oracle
 
 solr:
-  image: lukeyoungblood/solr:v0.1.0
+  image: "lukeyoungblood/solr:v0.1.0"
   volume_driver: convoy-nfs
   volumes:
     - mysolr-nfs2:/opt/solr/server/solr/cores
