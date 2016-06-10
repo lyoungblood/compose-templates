@@ -7,7 +7,7 @@ solr:
   volume_driver: 
     convoy-nfs
   volumes:
-    - mysolr-nfs2: /opt/solr/server/solr/cores
+    - mysolr: /opt/solr/server/solr/cores
 
 hybris:
   image: 
@@ -42,4 +42,4 @@ hybris:
     - oracle
   volume_driver: convoy-nfs
   volumes:
-    mymedia-nfs2: /etc/hybris/data/media
+    - mymedia: /etc/hybris/data/media
