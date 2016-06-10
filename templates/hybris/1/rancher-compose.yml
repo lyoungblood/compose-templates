@@ -1,0 +1,21 @@
+.catalog:
+  name: "SAP Hybris"
+  version: "v0.2.0"
+  description: "SAP Hybris B2B eCommerce Platform"
+  uuid: Hybris-1
+  minimum_rancher_version: v0.51.0
+  questions:    
+    - variable: db_hostname
+      description: "Fully qualified domain name of your database server."
+      label: "Database Hostname"
+      required: true
+      default: "ocs-1233.oc.mckesson.com"
+      type: "string"
+
+oracle:
+  hostname: ${db_hostname}
+
+solr:
+  scale: 1
+hybris:
+  scale: 2
