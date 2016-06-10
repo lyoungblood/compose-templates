@@ -1,0 +1,18 @@
+TOMCAT_SERVER_XML=server_proxy_nossl.xml
+y_tomcat_http_port=80
+y_tomcat_ssl_port=443
+TOMCAT_SERVER_XML=server_proxy_nossl.xml
+TC_HTTP_PROXY_PORT=80
+TC_HTTP_REDIRECT_PORT=443
+TC_HTTPS_PROXY_PORT=443
+y_db_url=jdbc:mysql://oracle/hybris?useConfigs=maxPerformance&characterEncoding=utf8
+y_db_driver=com.mysql.jdbc.Driver
+y_db_username=hybris
+y_db_password=hybris
+y_db_customsessionsql=SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED;
+y_mysql_optional_tabledefs=CHARSET=utf8 COLLATE=utf8_bin
+y_mysql_allow_fractional_seconds=true
+y_mysql_tabletype=InnoDB
+y_db_tableprefix=dev
+y_storefront_staticResourceFilter_response_header_Cache-Control=public,max-age=600
+y_solrserver_instances_default_autostart=false
