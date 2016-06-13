@@ -26,10 +26,10 @@ solr:
     healthy_threshold: 2
 hybris:
   scale: 2
-  health_check:
-    request_line: GET /login.jsp HTTP/1.0
-    port: 9001
-    interval: 2000
-    response_timeout: 2000
-    unhealthy_threshold: 3
-    healthy_threshold: 2
+#  health_check:
+#    request_line: GET /login.jsp HTTP/1.0
+#    port: 9001
+#    interval: 2000
+#    response_timeout: 2000
+#    unhealthy_threshold: 3
+#    healthy_threshold: 2
