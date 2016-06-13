@@ -22,7 +22,8 @@ hybris:
     y_db_url: 'jdbc:mysql://oracle/hybris?useConfigs:maxPerformance&characterEncoding:utf8'
     y_db_driver: com.mysql.jdbc.Driver
     y_db_username: hybris
-    y_db_password: 4d6kdsvyyPGUf33t
+    y_db_password: hybris
+#    y_db_password: 4d6kdsvyyPGUf33t
     y_db_customsessionsql: 'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED;'
     y_mysql_optional_tabledefs: 'CHARSET:utf8 COLLATE:utf8_bin'
     y_mysql_allow_fractional_seconds: true

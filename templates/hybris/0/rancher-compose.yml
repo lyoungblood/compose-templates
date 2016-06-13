@@ -9,7 +9,8 @@
       description: "Fully qualified domain name of your database server."
       label: "Database Hostname"
       required: true
-      default: "hybris.ctqumo1v306g.us-west-2.rds.amazonaws.com"
+      default: "ocs-1233.oc.mckesson.com"
+#      default: "hybris.ctqumo1v306g.us-west-2.rds.amazonaws.com"
       type: "string"
 
 oracle:
@@ -26,10 +27,10 @@ solr:
     healthy_threshold: 2
 hybris:
   scale: 2
-#  health_check:
-#    request_line: GET /login.jsp HTTP/1.0
-#    port: 9001
-#    interval: 2000
-#    response_timeout: 2000
-#    unhealthy_threshold: 3
-#    healthy_threshold: 2
+  health_check:
+    request_line: GET /login.jsp HTTP/1.0
+    port: 9001
+    interval: 2000
+    response_timeout: 2000
+    unhealthy_threshold: 3
+    healthy_threshold: 2
