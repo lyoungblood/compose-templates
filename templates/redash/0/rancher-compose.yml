@@ -1,0 +1,16 @@
+.catalog:
+  name: "ReDash"
+  version: "v0.1.0"
+  description: "Connect to any data source, easily visualize and share your data."
+  uuid: ReDash-0
+  minimum_rancher_version: v0.51.0
+
+redash:
+  scale: 1
+  health_check:
+    request_line: GET / HTTP/1.0
+    port: 80
+    interval: 2000
+    response_timeout: 2000
+    unhealthy_threshold: 3
+    healthy_threshold: 2
