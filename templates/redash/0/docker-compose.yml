@@ -1,2 +1,2 @@
 redash:
-  image: redash/redash:1.0.0.b2588
+  image: redash/redash
